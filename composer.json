@@ -1,0 +1,32 @@
+{
+    "name": "manogi/nova-tiptap",
+    "description": "A Laravel Nova tiptap editor field.",
+    "keywords": [
+        "laravel",
+        "nova",
+        "tiptap",
+        "vue",
+        "editor"
+    ],
+    "license": "MIT",
+    "require": {
+        "php": ">=7.1.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Manogi\\Tiptap\\": "src/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Manogi\\Tiptap\\FieldServiceProvider"
+            ]
+        }
+    },
+    "config": {
+        "sort-packages": true
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true
+}
