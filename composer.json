@@ -1,5 +1,5 @@
 {
-    "name": "niice/nova-tiptap",
+    "name": "manogi/nova-tiptap",
     "description": "A Laravel Nova tiptap editor field.",
     "keywords": [
         "laravel",
