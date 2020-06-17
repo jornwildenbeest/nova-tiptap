@@ -199,7 +199,6 @@ export default {
                     }
                 }
             });
-            console.log(this.value);
             this.editor.setContent(this.value);
 
             // set heading levels
@@ -246,7 +245,10 @@ export default {
             }.bind(this);
 
             return commands;
-        }
+        },
+        beforeDestroy() {
+            this.editor.destroy()
+        },
     },
 
     mounted: function () {
